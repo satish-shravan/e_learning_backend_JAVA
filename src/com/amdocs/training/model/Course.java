@@ -5,14 +5,14 @@ public class Course {
 	Integer courseId;
 	String courseName;
 	String courseDesc;
-	Integer courseFee;
+	Double courseFee;
 	String courseResource;
 	
 	public Course() {
 		
 	}
 
-	public Course(Integer courseId, String courseName, String courseDesc, Integer courseFee, String courseResource) {
+	public Course(Integer courseId, String courseName, String courseDesc, Double courseFee, String courseResource) {
 		this.courseId = courseId;
 		this.courseName = courseName;
 		this.courseDesc = courseDesc;
@@ -44,11 +44,11 @@ public class Course {
 		this.courseDesc = courseDesc;
 	}
 
-	public Integer getCourseFee() {
+	public Double getCourseFee() {
 		return courseFee;
 	}
 
-	public void setCourseFee(Integer courseFee) {
+	public void setCourseFee(Double courseFee) {
 		this.courseFee = courseFee;
 	}
 

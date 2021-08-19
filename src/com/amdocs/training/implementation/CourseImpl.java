@@ -22,7 +22,7 @@ public class CourseImpl implements CourseDAO {
 			ps.setInt(1, course.getCourseId());
 			ps.setString(2, course.getCourseName());
 			ps.setString(3, course.getCourseDesc());
-			ps.setInt(4, course.getCourseFee());
+			ps.setDouble(4, course.getCourseFee());
 			ps.setString(5, course.getCourseResource());
 			ps.executeUpdate();
 			return true;
